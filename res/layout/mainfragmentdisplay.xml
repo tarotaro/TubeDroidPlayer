@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:custom="http://schemas.android.com/apk/res/com.freeworks.android.tubedroidplayer"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <com.freeworks.android.tubedroidplayer.widget.FacebookLikePager
+    android:id="@+id/fragment_slide_fragment_support_pager"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    custom:rightspace="50.0dp"
+    >
+
+
+
+        <fragment
+        android:name="com.freeworks.android.tubedroidplayer.fragment.LeftPlayListFragment"
+        android:tag="Behind"
+        android:id="@+id/fragment_slide_fragment_behind_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+        <View
+                android:id="@+id/leftspacearea"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                />
+
+        <fragment
+                android:name="com.freeworks.android.tubedroidplayer.fragment.PlayerFragment"
+                android:tag="Wrap"
+                android:id="@+id/fragment_slide_fragment_wrap_fragment"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            <View
+                    android:id="@+id/rightspacearea"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:visibility="gone"/>
+        </fragment>
+
+    </com.freeworks.android.tubedroidplayer.widget.FacebookLikePager>
+
+</RelativeLayout>

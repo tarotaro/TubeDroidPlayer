@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../android-youtube-player-read-only/OpenYouTubeActivity/OpenYouTubeActivity.iml" filepath="$PROJECT_DIR$/../android-youtube-player-read-only/OpenYouTubeActivity/OpenYouTubeActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TubeDroidPlayer.iml" filepath="$PROJECT_DIR$/TubeDroidPlayer.iml" />
+    </modules>
+  </component>
+</project>
+

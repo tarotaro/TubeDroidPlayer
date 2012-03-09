@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="FacebookLikePager">
+        <attr name="rightspace" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@drawable/top_button_back_on" />
+    <item android:drawable="@drawable/top_button_back_off" />
+</selector>

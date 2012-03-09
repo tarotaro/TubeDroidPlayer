@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TubeDroidPlayerActivity!</string>
+    <string name="app_name">TubeDroidPlayer</string>
+    <string name ="debug">false</string>
+    <string name="base_url_debug">http://www.google.ne.jp</string>
+    <string name="base_url">http://www.google.ne.jp</string>
+
+</resources>

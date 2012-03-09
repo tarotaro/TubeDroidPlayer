@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/action_bar" android:layout_width="fill_parent"
+	android:layout_height="44.88dp"
+	android:orientation="vertical">
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1" android:orientation="horizontal"
+
+		android:gravity="center_vertical" android:background="@drawable/barback">
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            <ImageButton
+                    android:id="@+id/menu_btn"
+                    android:layout_width="30dp"
+                         android:layout_height="30dp"
+                         android:layout_alignParentLeft="true"
+                         android:layout_marginLeft="10dp"
+                         android:layout_centerVertical="true"
+                         android:background="@drawable/left_menubtn_sel"/>
+
+            <ImageView android:layout_width="30dp"
+                         android:layout_height="30dp"
+                         android:layout_alignParentLeft="true"
+                         android:layout_marginLeft="10dp"
+                         android:layout_centerVertical="true"
+                         android:background="@drawable/icon_list_bullets"/>
+
+
+        </RelativeLayout>
+		<!--  <ImageView android:id="@+id/img_logo" android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:layout_weight="0"
+			android:scaleType="fitStart" android:adjustViewBounds="true"
+			android:src="@drawable/toplogo" />-->
+
+		<!-- dummy blank -->
+		<View android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:layout_weight="1" android:background="#00000000" />
+	</LinearLayout>
+	
+	<View android:layout_width="fill_parent" android:layout_height="0.66dp"
+		android:layout_weight="0" android:background="#1B100A" />
+</LinearLayout>
+
+
